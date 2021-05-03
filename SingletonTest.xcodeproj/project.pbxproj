@@ -14,6 +14,7 @@
 		1BE7C746263D9DA500AFB1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE7C745263D9DA500AFB1C1 /* Assets.xcassets */; };
 		1BE7C749263D9DA500AFB1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE7C747263D9DA500AFB1C1 /* LaunchScreen.storyboard */; };
 		1BE7C74C263D9DA500AFB1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE7C74B263D9DA500AFB1C1 /* main.m */; };
+		1BE7C755263D9EE700AFB1C1 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE7C754263D9EE700AFB1C1 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		1BE7C748263D9DA500AFB1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BE7C74A263D9DA500AFB1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BE7C74B263D9DA500AFB1C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BE7C753263D9EC300AFB1C1 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		1BE7C754263D9EE700AFB1C1 /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				1BE7C747263D9DA500AFB1C1 /* LaunchScreen.storyboard */,
 				1BE7C74A263D9DA500AFB1C1 /* Info.plist */,
 				1BE7C74B263D9DA500AFB1C1 /* main.m */,
+				1BE7C753263D9EC300AFB1C1 /* Singleton.h */,
+				1BE7C754263D9EE700AFB1C1 /* Singleton.m */,
 			);
 			path = SingletonTest;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				1BE7C73B263D9DA200AFB1C1 /* AppDelegate.m in Sources */,
 				1BE7C74C263D9DA500AFB1C1 /* main.m in Sources */,
 				1BE7C73E263D9DA200AFB1C1 /* SceneDelegate.m in Sources */,
+				1BE7C755263D9EE700AFB1C1 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SingletonLibrary/SingletonLibrary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryB0/LibraryB0.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryA1/LibraryA1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LibraryA0/LibraryA0.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingletonTest/SingletonTest.xcodeproj">
+   </FileRef>
+</Workspace>
